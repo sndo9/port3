@@ -205,7 +205,11 @@ else redirect_to("index.php");
 
             echo $int++;
 
-            $output .= "<tr><td>$id</td><td>$item</td><td>$price</td><td>$name</td><td><button onclick='review($itemId)'>Review</button></td></tr>";
+            $output .= "<tr><td>$id</td><td>$item</td><td>$price</td><td>$name</td>";
+
+            if($user->getAuth() == 0) $output .= "<td><button onclick='review($itemId)'>Review</button></td>";
+
+            $output .= "</tr>";
 
 
 
