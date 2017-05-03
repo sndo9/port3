@@ -1,0 +1,192 @@
+body {
+    background-color: #d2d5cd;
+}
+h1{
+    font-family: verdana, serif;
+     font-style: italic;
+     font-size: 300%;
+     text-shadow: 8px 0px #ffffff;
+ }
+h2{
+    font-family: verdana, serif;
+     font-size: 200%;
+ }
+h3{
+    font-family: verdana, serif;
+    font-size: 150%;
+
+}
+h4{
+    font-family: verdana, serif;
+    font-size: 120%;
+    text-align: center;
+}
+h5{
+    font-family: verdana, serif;
+    font-size: 110%;
+}
+p{
+    font-family: verdana, serif;
+    font-size: 100%;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+#MenuBar{
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color:  white;
+    text-align: center;
+    padding: 18px 22px;
+    font-family: "Arial Black", serif;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+.ProductTable {
+    height: 100%;
+    width: 100%;
+    font-family: verdana, serif;
+    font-size: 120%;
+}
+div.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #333;
+    color: white;
+}
+
+div.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 16px 18px;
+    transition: 0.3s;
+    font-family: "Arial Black", serif;
+    color: white;
+
+}
+
+div.tab button:hover {
+    background-color: #000000;
+    color: white;
+}
+
+div.tab button.active {
+    background-color: #333;
+    color: white;
+
+}
+
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+.shiftleft{
+    padding-left: 60px;
+}
+input[type=text] {
+    background-color: #333;
+    color: white;
+    margin: 4px 0;
+    width: 400px;
+    padding: 8px 12px;
+    font-size: 105%;
+}
+input[type=password] {
+    background-color: #333;
+    color: white;
+    margin: 4px 0;
+    width: 400px;
+    padding: 8px 12px;
+    font-size: 105%;
+}
+input[type=submit] {
+    background-color: #333;
+    color: white;
+    padding: 6px 9px;
+    text-align: center;
+    width: 200px;
+    margin: 8px 0;
+    border: 1px solid gray;
+    font-size: 105%;
+}
+input[type=submit]:hover{
+    background-color: #000000;
+    color: white;
+    padding: 6px 9px;
+    text-align: center;
+    width: 200px;
+    margin: 8px 0;
+    cursor: pointer;
+    border: 1px solid gray;
+}
+.buyButton{
+    float: right;
+    background-color: #333;
+    color: white;
+    padding: 12px 18px;
+    text-align: center;
+    width: 200px;
+    border: 1px solid gray;
+    font-size: 105%;
+    margin: 15px 50px;
+}
+.buyButton:hover{
+    background-color: #000000;
+    color: white;
+    padding: 12px 18px;
+    text-align: center;
+    width: 200px;
+    border: 1px solid gray;
+    font-size: 105%;
+    margin: 15px 50px;}
+.boxed {
+    border: 2px solid black;
+}
+label{
+    font-family: verdana, serif;
+    font-size: 120%;
+}
+button {
+    background-color: #333;
+    color: white;
+    padding: 6px 9px;
+    text-align: center;
+    width: 200px;
+    margin: 8px 0;
+    border: 1px solid gray;
+    font-size: 105%;
+}
+button:hover{
+    background-color: #000000;
+    color: white;
+    padding: 6px 9px;
+    text-align: center;
+    width: 200px;
+    margin: 8px 0;
+    cursor: pointer;
+    border: 1px solid gray;
+}
+
+#welcome{
+    float: right;
+}
